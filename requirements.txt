@@ -1,0 +1,4 @@
+docx2txt==0.8
+textblob==0.15.3
+tqdm==4.62.1
+sumy==0.8.1
