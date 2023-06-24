@@ -64,7 +64,7 @@ To use the **doc_analyzer** module, follow these steps:
        print("Error:", str(e))
    ```
 
-   The `sentences_count` parameter specifies the number of sentences in the summary (default is 7). If the document contains fewer sentences than the requested summary length, a `ValueError` is raised. You can catch the exception and handle the error accordingly.
+   The `sentences_count` parameter specifies the number of sentences in the summary. If the document contains fewer sentences than the requested summary length, a `ValueError` is raised. You can catch the exception and handle the error accordingly.
 
 4. Perform sentiment analysis on the document using the `analyze_sentiment` method:
 

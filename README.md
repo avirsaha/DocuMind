@@ -3,10 +3,16 @@
 
 DocuMind is a document analysis module that provides functionality to analyze text documents, including summarization and sentiment analysis.
 
+
+**Author**: Aviraj Saha  
+**Copyright**: ©Aviraj Saha 2023
+
+
 ## Table of Contents
 - [Overview](#overview)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Example](#example)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -56,6 +62,33 @@ To analyze a text document using DocuMind, follow these steps:
 
 4. The script will analyze the document and generate an output file with the summarized text and sentiment analysis results.
 
+
+## Example
+
+```shell
+python main.py
+```
+
+**Sample Output:**
+
+```
+DocuMind - A document analysis module.
+
+This module provides functionality to analyze text documents, including summarization and sentiment analysis.
+
+Author: Aviraj Saha
+Copyright: ©Aviraj Saha 2023
+
+Enter a valid file path for .txt or a .docx file: path/to/input/document.txt
+Enter path for output: path/to/output/
+Enter number of lines for summary: 3
+
+Loading: 100%|█████████████████████████████████████████████████████████████| 100/100 [00:03<00:00, 32.11it/s]
+
+Process finished successfully!
+Results saved at: path/to/output/document_documind_output.txt
+```
+
 ## Contributing
 
 Contributions to DocuMind are welcome! If you would like to contribute to this project, please follow these steps:
@@ -85,3 +118,5 @@ Contributions to DocuMind are welcome! If you would like to contribute to this p
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+```

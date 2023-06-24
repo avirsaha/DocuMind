@@ -82,7 +82,7 @@ class Document:
         """
         return f"This is a Document object that refers to the file at {self._path}"
 
-    def summarize(self, sentences_count: int = 7) -> str:
+    def summarize(self, sentences_count: int) -> str:
         """
         Summarize the content of the document.
 
