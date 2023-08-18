@@ -1,0 +1,10 @@
+language: python
+python:
+  - 3.11
+
+script:
+  - ./update_changelog.sh
+
+branches:
+  only:
+    - master
